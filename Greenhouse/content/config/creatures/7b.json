@@ -1,0 +1,77 @@
+{
+	"7b":
+	{
+		"level" : 7,
+		"faction" : "glasshouse",
+		
+		"attack" : 20,
+		"defense" : 25,
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 30
+		},
+		"hitPoints" : 300,
+		"speed" : 6,
+		"growth" : 1,
+		
+		"cost" :
+		{
+			"gold" : 3500,
+			"wood"    : 2,
+			"ore"     : 2
+		},
+		"abilities" :
+		{
+			"magic_resistance":
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 50,
+			},
+			"three_headed_attack":
+			{
+				"type" : "THREE_HEADED_ATTACK",
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"aiValue" : 3500,
+		"fightValue" : 3500,
+		
+		"doubleWide" : true,
+		"graphics" :
+		{
+			"animation" : "unit-battle/7b.def",
+			"map" : "unit-map/7b.def",
+			"iconSmall" : "unit-portrait/7b S.bmp",
+			"iconLarge" : "unit-portrait/7b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S210ATTK.wav",
+			"defend" : "vori/S210DFND.wav",
+			"killed" : "vori/S210KILL.wav",
+			"wince" : "vori/S210WNCE.wav",
+			"shoot" : "vori/S210SHOT.wav",
+			"startMoving" : "vori/S210EXT1.wav",
+			"endMoving" : "vori/S210EXT2.wav"
+		},
+		"name" :
+		{
+			"plural" : "Noble potatoes",
+			"singular" : "Noble potato"
+		}
+	}
+}

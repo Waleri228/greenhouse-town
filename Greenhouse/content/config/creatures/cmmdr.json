@@ -1,0 +1,99 @@
+{
+	"cmmdr":
+	{
+		"level" : 0,
+		"special" : true,
+		"faction" : "glasshouse",
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 7
+		},
+		"hitPoints" : 60,
+		"speed" : 5,
+		"fightValue" : 680,
+		"aiValue" : 628,
+		"shots" : 24,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 3
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"graphics" :
+		{
+			"animation" : "unit-battle/2b.def",
+			"map" : "unit-map/2b.def",
+			"iconSmall" : "unit-portrait/2b S.bmp",
+			"iconLarge" : "unit-portrait/2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "vori/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S202ATTK.wav",
+			"defend" : "vori/S202DFND.wav",
+			"killed" : "vori/S202KILL.wav",
+			"move" : "vori/S202MOVE.wav",
+			"wince" : "vori/S202WNCE.wav",
+			"shoot" : "vori/S198SHOT.wav"
+		},
+		"name" :
+		{
+			"plural" : "Vegan Messiahs",
+			"singular" : "Vegan Messiah"
+		}
+	}
+}

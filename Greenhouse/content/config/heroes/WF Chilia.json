@@ -1,0 +1,60 @@
+{
+	"chilia" :
+	{
+		"class" : "farmer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "heroes/WF Chilia/spec-small.png",
+			"specialtyLarge" : "heroes/WF Chilia/spec-large.png",
+			"large" : "heroes/WF Chilia/portrait-large.png",
+			"small" : "heroes/WF Chilia/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "2a", "min" :  6, "max" :  9 },
+			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Chili",
+			"biography" : "Hot pepper.",
+		
+			"specialty" :
+			{	
+				"tooltip" : "Increase movement by+1 for all units from Greenhouse.",
+				"description" : "{Drover}\n\nIncrease movement all units from Greenhouse",
+				"name" : "Drover"
+			}
+		},
+		"specialty":
+		[
+			{
+				"bonuses" : 
+				[
+					{
+					"limiters" : [ { "parameters" : [ "glasshouse" ], "type" : "CREATURE_FACTION_LIMITER" } ],
+					"type" : "STACKS_SPEED",
+					"val" : 1
+					}
+				]
+			}
+		]
+	}
+}
+
+

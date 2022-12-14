@@ -1,0 +1,112 @@
+{
+	"core:creatureGeneratorCommon"  : {
+		"types" :{
+			"peasBarracks" :  { 
+				"name" : "Peas Barracks",
+				"creatures" :  [ [ "1a" ] ] ,
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "map/lvl1d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"parlor" :      
+			{ 
+				"name" : "Parlor",
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},				
+				"creatures" :  [ [ "2a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl2d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"glassDojo" :      
+			{ 
+				"name" : "Glass Dojo",
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},				
+				"creatures" :  [ [ "3a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl3d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"menchir" :      
+			{ 
+				"name" : "Menchir",
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},				
+				"creatures" :  [ [ "4a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl4d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"fieldOfDoom" :      
+			{ 
+				"name" : "Field of doom",
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},
+				"creatures" :  [ [ "5a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl5d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"palace" :      
+			{ 
+				"name" : "Palace",
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},
+				"creatures" :  [ [ "6a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl6d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"castle" :      
+			{ 
+				"name" : "Castle",
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["LOOPTAV"]
+				},
+				"creatures" :  [ [ "7a" ] ] ,
+				"templates" : 
+				{
+					"default" : {
+						"animation" : "map/lvl7d",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			}
+		}
+	}		
+}

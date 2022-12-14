@@ -1,0 +1,57 @@
+{
+	"bonio" :
+	{
+		"class" : "farmer",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "heroes/MM Bonio/spec-small.png",
+			"specialtyLarge" : "heroes/MM Bonio/spec-large.png",
+			"large" : "heroes/MM Bonio/portrait-large.png",
+			"small" : "heroes/MM Bonio/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "2a", "min" :  6, "max" :  9 },
+			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		],
+		"texts" :
+	{
+		"name" : "Bonio",
+		"biography" : "Sweet litte Pumpkin.",
+		
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"name" : "Diplomacy",
+				"description" : "{Diplomacy}\r\n\r\nReceives a 5% per level bonus to Diplomacy skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.diplomacy",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

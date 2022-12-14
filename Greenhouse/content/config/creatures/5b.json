@@ -1,0 +1,73 @@
+{
+	"5b":
+	{
+		"level" : 5,
+		"faction" : "glasshouse",
+		
+		"attack" : 14,
+		"defense" : 9,
+		"damage" :
+		{
+			"max" : 22,
+			"min" : 14
+		},
+		"hitPoints" : 55,
+		"speed" : 10,
+		"growth" : 3,
+		
+		"cost" :
+		{
+			"gold" : 760
+		},
+		"abilities" :
+		{
+			"canfly" :
+			{
+				"type" : "FLYING",
+			},
+			"life_drain" :
+			{
+				"type" : "LIFE_DRAIN",
+				"val"  : 50
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"aiValue" : 950,
+		"fightValue" : 950,
+		
+		"graphics" :
+		{
+			"animation" : "unit-battle/5b.DEF",
+			"map" : "unit-map/5b.def",
+			"iconSmall" : "unit-portrait/5b S.bmp",
+			"iconLarge" : "unit-portrait/5b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.5,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S207ATTK.wav",
+			"defend" : "vori/S207DFND.wav",
+			"killed" : "vori/S207KILL.wav",
+			"move" : "vori/S207MOVE.wav",
+			"wince" : "vori/S207WNCE.wav"
+		},
+		
+		"name" :
+		{
+			"plural" : "Pumpkinheads",
+			"singular" : "Pumpkinhead"
+		}
+	}
+}

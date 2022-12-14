@@ -1,0 +1,86 @@
+{
+	"6b":
+	{
+		"level" : 6,
+		"faction" : "glasshouse",
+		
+		"attack" : 16,
+		"defense" : 12,
+		"damage" :
+		{
+			"max" : 19,
+			"min" : 14
+		},
+		"hitPoints" : 90,
+		"speed" : 6,
+		"growth" : 1,
+		"spellPoints" : 20,
+		"shots" : 24,
+		
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"aiValue" : 1500,
+		"fightValue" : 1500,
+		
+		"doubleWide" : true,
+		"graphics" :
+		{
+			"animation" : "unit-battle/6b.DEF",
+			"map" : "unit-map/6b.def",
+			"iconSmall" : "unit-portrait/6b S.bmp",
+			"iconLarge" : "unit-portrait/6b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.5,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "vori/battle/projectile/SHOT208.DEF",
+			       "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S207ATTK.wav",
+			"defend" : "vori/S207DFND.wav",
+			"killed" : "vori/S207KILL.wav",
+			"move" : "vori/S207MOVE.wav",
+			"wince" : "vori/S207WNCE.wav"
+		},
+		
+		"name" :
+		{
+			"plural" : "Broccoli Lords",
+			"singular" : "Broccoli Lord"
+		}
+	}
+}

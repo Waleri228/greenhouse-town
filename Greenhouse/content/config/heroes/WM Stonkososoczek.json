@@ -1,0 +1,49 @@
+{
+	"stonkososoczek" :
+	{
+		"class" : "farmer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "heroes/WM Stonkososoczek/spec-small.png",
+			"specialtyLarge" : "heroes/WM Stonkososoczek/spec-large.png",
+			"large" : "heroes/WM Stonkososoczek/portrait-large.png",
+			"small" : "heroes/WM Stonkososoczek/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "5a", "min" :  1, "max" :  2 },
+			{ "creature" : "2a", "min" :  6, "max" :  9 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		"texts" :
+		{
+			"name" : "DragonJuice",
+			"biography" : " He hates dragons.",
+		
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Pumpkins",
+				"name" : "Pumpkins",
+				"description" : "{Pumpkins and Pumpkinheads}\r\n\r\nIncreases Speed of any Pumpkins or Pumpkinheads by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+			}
+		},
+		"specialty" : {
+			"creature" : "5a"
+		}
+	}
+}
+
+

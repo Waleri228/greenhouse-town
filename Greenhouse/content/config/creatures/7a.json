@@ -1,0 +1,75 @@
+{
+	"7a":
+	{
+		"level" : 7,
+		"faction" : "glasshouse",
+		
+		"attack" : 15,
+		"defense" : 20,
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 30
+		},
+		"hitPoints" : 200,
+		"speed" : 4,
+		"growth" : 1,
+		
+		"cost" :
+		{
+			"gold" : 2000,
+			"wood"    : 1,
+			"ore"     : 1,
+		},
+		"upgrades":
+		[
+			"7b"
+		],
+		"abilities" :
+		{
+			"magic_resistance":
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 25,
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"aiValue" : 2500,
+		"fightValue" : 2500,
+		
+		"doubleWide" : true,
+		"graphics" :
+		{
+			"animation" : "unit-battle/7a.DEF",
+			"map" : "unit-map/7a.def",
+			"iconSmall" : "unit-portrait/7a S.bmp",
+			"iconLarge" : "unit-portrait/7a.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S209ATTK.wav",
+			"defend" : "vori/S209DFND.wav",
+			"killed" : "vori/S209KILL.wav",
+			"move" : "vori/S209MOVE.wav",
+			"wince" : "vori/S209WNCE.wav"
+		},
+		"name" :
+		{
+			"plural" : "Potatoes",
+			"singular" : "Potato"
+		}
+	}
+}

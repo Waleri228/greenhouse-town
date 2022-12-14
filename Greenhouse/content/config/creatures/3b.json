@@ -1,0 +1,69 @@
+{
+	"3b":
+	{
+		"level" : 3,
+		"faction" : "glasshouse",
+		
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"hitPoints" : 28,
+		"speed" : 7,
+		"growth" : 6,
+		
+		"cost" :
+		{
+			"gold" : 220
+		},
+		"abilities" :
+		{
+			"additional_retaliations" :
+			{
+				"type": "ADDITIONAL_RETALIATION",
+				"val" : 3
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"aiValue" : 270,
+		"fightValue" : 270,
+		
+		
+		"graphics" :
+		{
+			"animation" : "unit-battle/3b.def",
+			"map" : "unit-map/3b.def",
+			"iconSmall" : "unit-portrait/3b S.bmp",
+			"iconLarge" : "unit-portrait/3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S202ATTK.wav",
+			"defend" : "vori/S202DFND.wav",
+			"killed" : "vori/S202KILL.wav",
+			"move" : "vori/S202MOVE.wav",
+			"wince" : "vori/S202WNCE.wav"
+		},
+		"name" :
+		{
+			"plural" : "Samurai Onions",
+			"singular" : "Samurai Onion"
+		}
+	}
+}

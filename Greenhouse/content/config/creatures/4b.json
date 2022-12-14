@@ -1,0 +1,70 @@
+{
+	"4b":
+	{
+		"level" : 4,
+		"faction" : "glasshouse",
+		
+		"attack" : 7,
+		"defense" : 15,
+		"damage" :
+		{
+			"max" : 11,
+			"min" : 6
+		},
+		"hitPoints" : 65,
+		"speed" : 4,
+		"growth" : 3,
+		
+		"cost" :
+		{
+			"gold" : 410
+		},
+		"abilities" :
+		{
+			"full_regen":
+			{
+				"type" : "FULL_HP_REGENERATION",
+				"subtype" : 1,
+			}
+			
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"aiValue" : 600,
+		"fightValue" : 600,
+		
+		"graphics" :
+		{
+			"animation" : "unit-battle/4b.def",
+			"map" : "unit-map/4b.def",
+			"iconSmall" : "unit-portrait/4b S.bmp",
+			"iconLarge" : "unit-portrait/4b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S204ATTK.wav",
+			"defend" : "vori/S204DFND.wav",
+			"killed" : "vori/S204KILL.wav",
+			"move" : "vori/S204MOVE.wav",
+			"wince" : "vori/S204WNCE.wav",
+			"shoot" : "vori/S204SHOT.wav"
+		},
+		"name" :
+		{
+			"plural" : "Wild Eggplants",
+			"singular" : "Wild Eggplant"
+		}		
+	}
+}

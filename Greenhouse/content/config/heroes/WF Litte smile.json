@@ -1,0 +1,49 @@
+{
+	"litte smile" :
+	{
+		"class" : "farmer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "heroes/WF Litte smile/spec-small.png",
+			"specialtyLarge" : "heroes/WF Litte smile/spec-large.png",
+			"large" : "heroes/WF Litte smile/portrait-large.png",
+			"small" : "heroes/WF Litte smile/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "1a", "min" : 30, "max" : 50 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			},
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Litte smile",
+			"biography" : "Sweet little radish.",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Peas",
+				"name" : "Peas",
+				"description" : "{Peas and Tyrolean peas}\r\n\r\nIncreases Speed of any Peas or Tyrolean peas by 1 and their Attack and Defense skills by 5% for every level (rounded up)."
+			}
+		},
+		"specialty" : {
+			"creature" : "1a"
+		}
+	}
+}
+
+

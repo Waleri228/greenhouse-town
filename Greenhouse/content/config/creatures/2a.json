@@ -1,0 +1,88 @@
+{
+	"2a":
+	{
+		"level" : 2,
+		"faction" : "glasshouse",
+		
+		"attack" : 4,
+		"defense" : 4,
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"hitPoints" : 17,
+		"speed" : 5,
+		"growth" : 9,
+		"shots" : 12,
+		"horde" : 5,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"upgrades":
+		[
+			"2b"
+		],
+		"abilities" :
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"aiValue" : 90,
+		"fightValue" : 90,
+		"graphics" :
+		{
+			"animation" : "unit-battle/2a.def",
+			"map" : "unit-map/2a.def",
+			"iconSmall" : "unit-portrait/2a S.bmp",
+			"iconLarge" : "unit-portrait/2a.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "vori/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+
+		},
+		"sound" :
+		{
+			"attack" : "vori/S198ATTK.wav",
+			"defend" : "vori/S198DFND.wav",
+			"killed" : "vori/S198KILL.wav",
+			"move" : "vori/S198MOVE.wav",
+			"wince" : "vori/S198WNCE.wav",
+            "shoot" : "vori/S198SHOT.wav"
+		},
+		"name" :
+		{
+			"plural" : "Cucumbers",
+			"singular" : "Cucumber"
+		}
+	}
+}

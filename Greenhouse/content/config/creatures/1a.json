@@ -1,0 +1,68 @@
+{
+	"1a":
+	{
+		"level" : 1,
+		"faction" : "glasshouse",
+		
+		"attack" : 6,
+		"defense" : 2,
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"hitPoints" : 3,
+		"speed" : 4,
+		"growth" : 30,
+		
+		"cost" :
+		{
+			"gold" : 20
+		},
+		"upgrades":
+		[
+			"1b"
+		],
+//		"abilities" :
+//		{
+//		},
+		
+		"advMapAmount" :
+		{
+			"max" : 100,
+			"min" : 50
+		},
+		"aiValue" : 60,
+		"fightValue" : 60,
+		
+		
+		"graphics" :
+		{
+			"animation" : "unit-battle/1a.def",
+			"map" : "unit-map/1a.def",
+			"iconSmall" : "unit-portrait/1a S",
+			"iconLarge" : "unit-portrait/1a",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.95,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack" : "vori/S200ATTK.wav",
+			"defend" : "vori/S200DFND.wav",
+			"killed" : "vori/S200KILL.wav",
+			"move" : "vori/S200MOVE.wav",
+			"wince" : "vori/S200WNCE.wav"
+		},
+		"name" :
+		{
+			"plural" : " Peas",
+			"singular" : " Pea"
+		}
+	}
+}

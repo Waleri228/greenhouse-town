@@ -1,0 +1,57 @@
+{
+	"beata" :
+	{
+		"class" : "farmer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "heroes/WF Beata/spec-small.png",
+			"specialtyLarge" : "heroes/WF Beata/spec-large.png",
+			"large" : "heroes/WF Beata/portrait-large.png",
+			"small" : "heroes/WF Beata/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "1a", "min" : 30, "max" : 50 },
+			{ "creature" : "2a", "min" :  6, "max" :  9 },
+			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Beata",
+			"biography" : "Panzer beetroot lady.",
+		
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer",
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

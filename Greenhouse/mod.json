@@ -1,0 +1,80 @@
+{
+	"name" : "Greenhouse",
+	"description" : "Greenhouse - Town of Vegetables and Fruits ",
+	"author" : "Mad Hatter Workshop",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=42323",
+	"version" : "0.1.5",
+	"modType" : "Town",
+	
+	"factions" :
+	[
+		"config/faction.json",
+		"config/buildings.json",
+		"config/siege.json",
+		"config/spells.json",
+		"config/structures.json",
+		"config/puzzle.json"
+	],
+	"creatures" :
+	[
+
+		"config/creatures/1a.json",
+		"config/creatures/1b.json",
+
+		"config/creatures/2a.json",
+		"config/creatures/2b.json",
+
+		"config/creatures/3a.json",
+		"config/creatures/3b.json",
+
+		"config/creatures/4a.json",
+		"config/creatures/4b.json",
+		
+		"config/creatures/5a.json",
+		"config/creatures/5b.json",
+
+		"config/creatures/6a.json",
+		"config/creatures/6b.json",
+
+		"config/creatures/7a.json",
+		"config/creatures/7b.json",
+		
+		"config/creatures/cmmdr.json"
+	],
+	"heroClasses" :
+	[
+		"config/hero-magic.json",
+		"config/hero-might.json"
+	],
+
+	"heroes" :
+	[
+		"config/heroes/MF petra.json",
+		"config/heroes/MF Esmeralda.json",
+		"config/heroes/MF Gerta.json",
+		"config/heroes/MF Zozia.json",
+
+		"config/heroes/MM Sam Pchajplug.json",
+		"config/heroes/MM Bonio.json",
+		"config/heroes/MM Kalafiosteain.json",
+		"config/heroes/MM Jacquouille.json",
+		
+		"config/heroes/WF Beata.json",
+		"config/heroes/WF Chilia.json",
+		"config/heroes/WF Litte smile.json",
+		"config/heroes/WF Margret.json",
+		
+		"config/heroes/WM kozak.json",
+		"config/heroes/WM Guba Guba.json",
+		"config/heroes/WM ching chang chong.json",
+		"config/heroes/WM Stonkososoczek",
+		
+		"config/heroes/Z Nicolai.json",
+		"config/heroes/Z Bogdan.json"
+		
+	],
+	
+	"objects" : [
+		"config/mapDwelings.json"
+	]	
+}
