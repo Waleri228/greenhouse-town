@@ -43,11 +43,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"sorcery" : {
-					"subtype" : "skill.sorcery",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

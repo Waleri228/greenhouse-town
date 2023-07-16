@@ -42,12 +42,13 @@
 		},
 		"specialty" : {
 			"bonuses" : {
-				"sorcery" : {
-					"subtype" : "skill.armorer",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+				"armorer" : {
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

@@ -52,8 +52,7 @@
 			{
 				"walk" : 0.9,
 				"idle" : 10,
-				"attack" : 1,
-				"flight" : 1
+				"attack" : 1
 			}
 		},
 		"sound" :

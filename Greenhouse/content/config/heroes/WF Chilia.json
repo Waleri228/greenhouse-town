@@ -37,23 +37,19 @@
 			"specialty" :
 			{	
 				"tooltip" : "Increase movement by+1 for all units from Greenhouse.",
-				"description" : "{Drover}\n\nIncrease movement all units from Greenhouse",
+				"description" : "{Drover}\n\nIncrease movement all units from Greenhouse by +1",
 				"name" : "Drover"
 			}
 		},
-		"specialty":
-		[
-			{
-				"bonuses" : 
-				[
-					{
+		"specialty": {
+			"bonuses" : {
+				"speed" : {
 					"limiters" : [ { "parameters" : [ "glasshouse" ], "type" : "CREATURE_FACTION_LIMITER" } ],
 					"type" : "STACKS_SPEED",
 					"val" : 1
-					}
-				]
+				}
 			}
-		]
+		}
 	}
 }
 

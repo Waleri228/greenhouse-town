@@ -8,9 +8,8 @@
 			"130px" : "creature-bg-130px"
 		},
 		"nativeTerrain": "dirt",
-		//"commander" : "Sunflower",
 		"alignment" : "good",
-
+		"boat" : "boatCastle",
 		"town" :
 		{
 			"musicTheme" : "music/town",
@@ -36,7 +35,7 @@
 				[ "6a", "6b" ],
 				[ "7a", "7b" ]
 			],
-			"moatDamage" : 90,
+			"moatAbility" : "castleMoat",
 			"horde" : [ 1 ],
 			"mageGuild" : 5,
 			//"primaryResource" : "gem",

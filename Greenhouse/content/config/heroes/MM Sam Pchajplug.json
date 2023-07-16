@@ -42,12 +42,15 @@
 			}
 		},
 		"spellbook" : [],
-		"specialty":
-		[
-			{
-				"bonuses" : [ { "subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 } ]
+		"specialty": {
+			"bonuses" : {
+				"estates" : {
+					"subtype" : "resource.gold", 
+					"type" : "GENERATE_RESOURCE", 
+					"val" : 350
+				}
 			}
-		]
+		}	
 	}
 }
 

@@ -41,17 +41,16 @@
 			}
 		},
 		"spellbook" : [ "mirth" ],
-		"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"addInfo" : 0,
-						"subtype" : "spell.mirth",
-						"type" : "SPECIAL_PECULIAR_ENCHANT"
-					}
-				]
+		"specialty" : {
+			"bonuses" : {
+				"mirth" : {
+					"val" : 1,
+					"valueType" : "BASE_NUMBER",
+					"subtype" : "spell.mirth",
+					"type" : "SPELL_DURATION"
+				}
 			}
-		]
+		}
 	}
 }
 

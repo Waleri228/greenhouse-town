@@ -42,12 +42,19 @@
 		},
 		"specialty" : {
 			"bonuses" : {
-				"sorcery" : {
-					"subtype" : "skill.diplomacy",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+				"diplomat" : {
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL"
+				},
+				"surrendercost" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"val" : 5,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

@@ -7,6 +7,8 @@
 			{
 				"shooter" : "2a",
 				"imagePrefix" : "siege/sgfg",
+				"towerIconSmall" : "town/arrowtowersmall",
+				"towerIconLarge" : "town/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },
