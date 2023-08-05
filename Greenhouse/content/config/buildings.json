@@ -259,9 +259,10 @@
 				},
 				"special1" :
 				{
-					"description" : "Composters allow you to sacrifice a part of resources for increase the next week growth of creatures in the city (not working yet).",
+					"description" : "Composters allows a visiting hero to sell creatures for resources.",
+//					"description" : "Composters allow you to sacrifice a part of resources for increase the next week growth of creatures in the city (not working yet).",
 					"name": "Composters",
-					"cost" : { "gold" : 5 },
+					"cost" : { "gold" : 1000 },
 //					"cost" :
 //					{
 //						"wood"    : 5,
@@ -270,13 +271,14 @@
 //						"sulfur"  : 2,
 //						"gold" : 2000
 //					},					
-					"id" : 17
+					"type" : "freelancersGuild"
 				},
 				"special2" :
 				{
-					"description" : "Allows you to recruit army of random vegetables creatures every week (not working yet).",
+					"description" : "Enables player to recruit once per week random creatures from flagged dwellings.",
+//					"description" : "Allows you to recruit army of random vegetables creatures every week (not working yet).",
 					"name" : "Greengrocer",
-					"cost" : { "gold" : 5 },
+					"cost" : { "gold" : 2500, "ore" : 5 },
 //					"cost" :
 //					{
 //						"wood"    : 5,
@@ -285,7 +287,7 @@
 //						"sulfur"  : 3,
 //						"gold" : 7500
 //					},
-					"id" : 21
+					"type" : "portalOfSummoning"
 				},
 				"grail" :
 				{
