@@ -291,10 +291,21 @@
 				},
 				"grail" :
 				{
-					"description" : "The presence of the Ever-growing Bean increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day.",
+					"description" : "The presence of the Ever-growing Bean increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day and grants additional attack to all Greenhouse vegetables.",
 					"name" : "Ever-growing Bean",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"bonuses": [ 
+						{ 
+							"type": "ADDITIONAL_ATTACK", 
+							"val" : 1,
+							"propagator" : "GLOBAL_EFFECT",
+							"limiters" : [ {
+								"type" : "CREATURE_FACTION_LIMITER",
+								"parameters" : ["greenhouse"]
+							} ]
+						}
+					]
 				},
 				"leg1A" :
 				{
