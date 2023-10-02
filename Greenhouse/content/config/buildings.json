@@ -302,7 +302,7 @@
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [ {
 								"type" : "CREATURE_FACTION_LIMITER",
-								"parameters" : ["greenhouse"]
+								"parameters" : ["glasshouse"]
 							} ]
 						}
 					]
