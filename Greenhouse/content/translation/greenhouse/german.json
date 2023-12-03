@@ -202,7 +202,7 @@
 	"hero.greenhouse-town.zozia.name": "Zuzia",
 	"hero.greenhouse-town.zozia.specialty.description": "{Fröhlichkeit}\r\n\r\nWirft Fröhlichkeit mit doppelter Dauer.",
 	"hero.greenhouse-town.zozia.specialty.name": "Fröhlichkeit",
-	"hero.greenhouse-town.zozia.specialty.tooltip": "Zauberbonus: Fröhlichkeit"
+	"hero.greenhouse-town.zozia.specialty.tooltip": "Zauberbonus: Fröhlichkeit",
 	"heroClass.greenhouse-town.farmer.name" : "Landwirt",
 	"heroClass.greenhouse-town.gardener.name" : "Botaniker",
 	"mapObject.greenhouse-town.creatureGeneratorCommon.castle.name" : "Schloss",

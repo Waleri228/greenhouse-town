@@ -24,7 +24,6 @@
 			"full_regen":
 			{
 				"type" : "HP_REGENERATION",
-				"subtype" : 1,
 				"val" : 100000
 			}	
 		},

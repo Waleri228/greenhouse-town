@@ -42,7 +42,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"logistics" : {
-					"subtype" : 1,
+					"subtype" : "movementFlying",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MOVEMENT",
 					"val" : 5,
