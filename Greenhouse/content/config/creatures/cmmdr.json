@@ -8,11 +8,11 @@
 		"defense" : 5,
 		"damage" :
 		{
-			"max" : 15,
-			"min" : 7
+			"max" : 12,
+			"min" : 6
 		},
-		"hitPoints" : 60,
-		"speed" : 5,
+		"hitPoints" : 40,
+		"speed" : 4,
 		"fightValue" : 680,
 		"aiValue" : 628,
 		"shots" : 24,
