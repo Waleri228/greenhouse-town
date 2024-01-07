@@ -13,8 +13,8 @@
 		},
 		"hitPoints" : 40,
 		"speed" : 4,
-		"fightValue" : 680,
-		"aiValue" : 628,
+		"fightValue" : 130,
+		"aiValue" : 156,
 		"shots" : 24,
 		"abilities" :
 		{
