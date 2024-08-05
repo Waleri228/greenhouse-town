@@ -15,7 +15,7 @@
 			"musicTheme" : "music/town",
 			"townBackground": "background.bmp",
 			"guildWindow": "mageguild",
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "mage",
 			"hallBackground": "window-building",
 			"hallSlots":
 			[
