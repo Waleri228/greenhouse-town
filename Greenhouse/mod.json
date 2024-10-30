@@ -11,11 +11,19 @@
 	{
 		"min" : "1.4.0"
 	},
-	"german" : {
+		"german" : {
 		"name" : "Gewächshaus",
 		"description" : "Gewächshaus - Stadt des Gemüses und des Obstes.",
 		"translations" : [
 			"translation/greenhouse/german.json"
+		]
+	},
+		"russian" : {
+		"name" : "Теплица",
+		"description" : "Теплица - город овощей и фруктов.",
+		"author" : "Mad Hatter Workshop",
+		"translations" : [
+			"translation/greenhouse/russian.json"
 		]
 	},
 	"changelog" :
